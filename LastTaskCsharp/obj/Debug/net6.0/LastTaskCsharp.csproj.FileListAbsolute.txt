@@ -1,0 +1,5 @@
+C:\Users\ProBook\Desktop\LastTaskCsharp\LastTaskCsharp\obj\Debug\net6.0\LastTaskCsharp.csproj.AssemblyReference.cache
+C:\Users\ProBook\Desktop\LastTaskCsharp\LastTaskCsharp\obj\Debug\net6.0\LastTaskCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ProBook\Desktop\LastTaskCsharp\LastTaskCsharp\obj\Debug\net6.0\LastTaskCsharp.AssemblyInfoInputs.cache
+C:\Users\ProBook\Desktop\LastTaskCsharp\LastTaskCsharp\obj\Debug\net6.0\LastTaskCsharp.AssemblyInfo.cs
+C:\Users\ProBook\Desktop\LastTaskCsharp\LastTaskCsharp\obj\Debug\net6.0\LastTaskCsharp.csproj.CoreCompileInputs.cache
