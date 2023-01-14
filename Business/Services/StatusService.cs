@@ -100,5 +100,20 @@ namespace Business.Services
             return statuses;
         }
 
+        public Status Update(int userId, int statusId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Status Delete(int id)
+        {
+            Status existStatus = statusRepository.Get(st => st.Id == id);
+            if (existStatus != null)
+            {
+                statusRepository.Delete(existStatus);
+                return existStatus;
+            }
+            return null;
+        }
     }
 }

@@ -188,5 +188,10 @@ namespace LastTaskCsharp.Controllers
             }
 
         }
+
+        internal void DeleteStatus()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

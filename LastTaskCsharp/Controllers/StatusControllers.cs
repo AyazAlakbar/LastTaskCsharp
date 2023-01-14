@@ -82,6 +82,31 @@ namespace LastTaskCsharp.Controllers
         }
 
 
+        public void DeleteStatus()
+        {
+            GetAllStatuses();
+        CorrectId: Helpers.HelperMessage(ConsoleColor.DarkYellow, "Choose ID of user to delete status");
+            int result;
+            string stringId = Console.ReadLine();
+            bool isConverted = int.TryParse(stringId, out result);
+            if (isConverted)
+            {
+                if (statusService.Delete(result) != null)
+                {
+                    Helpers.HelperMessage(ConsoleColor.Green, $"status {result} is deleted");
+                    return;
+                }
+                Helpers.HelperMessage(ConsoleColor.Red, "ID does not exist, please choose correct ID");
+
+            }
+            else
+            {
+                Helpers.HelperMessage(ConsoleColor.Red, "Type correct ID");
+                goto CorrectId;
+            }
+        }
+
+
         public void GetStatusById()
         {
            GetAllStatuses();

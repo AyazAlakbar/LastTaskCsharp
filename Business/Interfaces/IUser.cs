@@ -9,12 +9,18 @@ namespace Business.Interfaces
 {
     public interface IUser
     {
-        User Create(User user);
-        User Update(int id, User user);
-        User Delete(int id);
+        public User Create(User user);
+        public User Update(int id, User user);
+        public User Delete(int id);
 
-        User Get(int id);
-        User Get(string name);
-        List<User> GetAll();
+        public void ShareStatus(Status status, int statusId, int userId);
+
+
+        public User GetUserById(int id);
+        public List<Status> GetAllStatusesById(int id);
+
+        public User GetUserByUserName(string userName);
+
+        public List<User> GetAll();
     }
 }

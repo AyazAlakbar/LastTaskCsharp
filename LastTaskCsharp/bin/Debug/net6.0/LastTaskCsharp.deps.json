@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LastTaskCsharp/1.0.0": {
+        "dependencies": {
+          "Business": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "LastTaskCsharp.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0",
+          "Entity": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      },
+      "Entity/1.0.0": {
+        "runtime": {
+          "Entity.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LastTaskCsharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

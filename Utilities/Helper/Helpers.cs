@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utilities.Helper
 {
-    public class Helpers
+    public static class Helpers
     {
         public static void HelperMessage(ConsoleColor color, string message)
         {
@@ -17,31 +17,44 @@ namespace Utilities.Helper
 
         public enum Cases
         {
-            CreateStatus=1,
-            ShareStatus ,
-            UpdateStatus,
-            GetAllStatuses,
+
+            CreateUser = 1,
+            DeleteUser,
+            GetAllUsers,
+            GetUserById,
+            CreateStatus,
             DeleteStatus,
+            GetStatusInfo,
+            ShareStatus,
+            GetAllStatuses,
             GetStatusById,
             FilterStatusByDate,
-            Quit
+            GetAllStatusesByUsername,
+            GetUserByUserName,
+            Quit = 0
         }
 
 
+        public const string ButtonMessage = "Click button to continue";
+        public const string MenuMessage = 
+            "1 - Create User\n" +
+            "2 - Delete User\n" +
+            "3 - Get All Users\n" +
+            "4 - Get User By Id\n" +
+            "5 - Create Status\n" +
+            "6 - Delete Status\n"+
+            "7 - Get Status Info\n" +
+            "8 - Share Status\n" +
+            "9 - Get All Statuses\n" +
+            "10 - Get Status by ID\n" +
+            "11 - Filter Status by Date\n" +
+            "12 - Get All Statuses By Username\n" +
+            "13 - Get User By User Name\n" +
+            "0 - Quit";
 
-        public const string MenuMessage =
-          "1-Create Status\n"
-        + "2-Share Status\n"
-        + "3-Update Status"
-        + "4-Get All Statuses\n"
-        + "5-Delete Status\n"
-        + "6-Get Status By Id\n"
-        + "7-Filter Status By Date\n"
-        + "8-Quit\n";
-     
 
 
-        
+
 
 
     }
